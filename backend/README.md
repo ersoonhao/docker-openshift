@@ -1,30 +1,4 @@
-# docker-openshift
-full stack app for openshift
-
-
-# vue-3crud (Frontend)
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-
-# Docker Compose Spring Boot and MySQL (Backend)
-
-## Note for Windows User
-if you aren't a mac user please remove platform: linux/x86_64 from docker-compose.yml file (Line 5)
-
+# Docker Compose Spring Boot and MySQL example
 
 ## Run the System
 We can easily run the whole with only a single command:
@@ -49,3 +23,4 @@ If you need to stop and remove all containers, networks, and all images used by 
 ```bash
 docker-compose down --rmi all
 ```
+
